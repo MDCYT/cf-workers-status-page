@@ -2,7 +2,7 @@ settings:
   title: 'Status Page'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 30 # number of days you want to display in histogram
+  daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
@@ -18,7 +18,7 @@ monitors:
   - id: any-bot-website # unique identifier
     name: Any Bot Website
     description: 'This is the oficial Any Bot Website' # default=empty
-    url: 'https:/any-bot.tech/' # URL to fetch
+    url: 'https://any-bot.tech/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
