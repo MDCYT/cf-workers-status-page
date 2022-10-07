@@ -18,7 +18,7 @@ monitors:
   - id: any-bot-website # unique identifier
     name: Any Bot Website
     description: 'This is the oficial Any Bot Website' # default=empty
-    url: 'https://any-bot.tech/' # URL to fetch
+    url: 'https://any-bot.xyz/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -27,7 +27,7 @@ monitors:
   - id: any-bot
     name: Any Bot
     description: 'Status about the Any Bot'
-    url: 'https://any-bot.tech/bot-status'
+    url: 'https://any-bot.xyz/bot-status'
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
